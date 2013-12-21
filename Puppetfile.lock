@@ -1,0 +1,27 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    puppetlabs/apt (1.4.0)
+      puppetlabs/stdlib (>= 2.2.1)
+    puppetlabs/ntp (3.0.0-rc1)
+      puppetlabs/stdlib (>= 0.1.6)
+    puppetlabs/stdlib (4.1.0)
+    saz/locales (2.0.0)
+    saz/motd (2.0.3)
+    saz/timezone (1.2.0)
+
+GIT
+  remote: git://github.com/garethr/puppet-serf.git
+  ref: master
+  sha: 043d570adeb53c74ab3b0d6a2e8ac228f406db71
+  specs:
+    garethr/serf (0.1.0)
+
+DEPENDENCIES
+  garethr/serf (>= 0)
+  puppetlabs/apt (>= 0)
+  puppetlabs/ntp (>= 0)
+  saz/locales (>= 0)
+  saz/motd (>= 0)
+  saz/timezone (>= 0)
+
