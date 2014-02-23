@@ -11,14 +11,15 @@ FORGE
     saz/timezone (1.2.0)
 
 GIT
-  remote: git://github.com/garethr/puppet-serf.git
+  remote: https://github.com/davidcollom/puppet-serf.git
   ref: master
-  sha: 043d570adeb53c74ab3b0d6a2e8ac228f406db71
+  sha: 29eeeca19abbcaa8226f7f4cf4f6a870480991be
   specs:
-    garethr/serf (0.1.0)
+    davidcollom/serf (0.1.3)
+      puppetlabs/stdlib (>= 0)
 
 DEPENDENCIES
-  garethr/serf (>= 0)
+  davidcollom/serf (>= 0)
   puppetlabs/apt (>= 0)
   puppetlabs/ntp (>= 0)
   saz/locales (>= 0)

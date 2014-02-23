@@ -1,6 +1,6 @@
 forge "http://forge.puppetlabs.com"
 
-mod 'garethr/serf', :git => 'git://github.com/garethr/puppet-serf.git'
+mod 'davidcollom/serf', :git => 'https://github.com/davidcollom/puppet-serf.git'
 mod 'puppetlabs/apt'
 
 mod 'saz/locales'

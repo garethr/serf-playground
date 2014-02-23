@@ -6,3 +6,4 @@ classes:
   - ntp
 timezone:timezone: 'UTC'
 ntp:ensure: latest
+serf::role: web
